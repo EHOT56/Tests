@@ -1,0 +1,16 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial; }
+body { margin: 0; background: #0b0c0f; color: #e8e8ea; }
+header { padding: 16px 20px; border-bottom: 1px solid #1b1d24; position: sticky; top: 0; background: #0b0c0f; }
+h1 { margin: 0; font-size: 20px; }
+main { max-width: 720px; margin: 24px auto; padding: 0 16px; }
+.new-item { margin-bottom: 20px; }
+#new-form { display: flex; gap: 8px; }
+#new-text { flex: 1; padding: 10px 12px; border-radius: 10px; border: 1px solid #272933; background: #12141a; color: inherit; }
+button { padding: 10px 14px; border-radius: 10px; border: 1px solid #2b2e3a; background: #1a1d27; color: #e8e8ea; cursor: pointer; }
+button:hover { filter: brightness(1.15); }
+button.ghost { background: transparent; }
+button.danger { border-color: #51303a; }
+ul.list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+li.todo { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border: 1px solid #272933; border-radius: 12px; background: #12141a; }
+li .spacer { flex: 1; }
+.done { opacity: 0.7; text-decoration: line-through; }

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}TODO{% endblock %}
+{% block content %}
+<section class="new-item">
+<form id="new-form">
+<input id="new-text" name="text" placeholder="Новая задача…" autocomplete="off" />
+<button type="submit">Добавить</button>
+</form>
+</section>
+
+
+<section>
+<ul id="todo-list" class="list"></ul>
+</section>
+{% endblock %}
